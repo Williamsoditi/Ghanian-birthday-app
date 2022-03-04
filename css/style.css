@@ -2,16 +2,28 @@
     text-align: center;
     box-sizing: border-box;
     margin: 0%;
-    background-color: grey;
+    background-color: coral;
+    align-items: center;
 }
-h1{
-    font-weight: bolder;
+header{
+    background-color: coral;
+}
+.opening-header{
+    border: solid 1px white;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+.opening-header h1{
+    font-weight: bold;
+    font-size: 5vw;
+}
+.small{
+    font-size: larger;
 }
 .welcome-text{
     color: white;
-    font-size: 20px;
+    font-size: 30px;
+    padding: 5vw;
 }
-.d-grid a:hover{
-    cursor: progress;
-    box-shadow: 3px 3px white;
-}
+
