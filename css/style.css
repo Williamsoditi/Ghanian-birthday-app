@@ -26,4 +26,14 @@ header{
     font-size: 30px;
     padding: 5vw;
 }
-
+button{
+    padding: 15px;
+    color: white;
+    background-color: green;
+    border-radius: 10px 0px;
+}
+button:hover{
+    cursor: progress;
+    box-shadow: 3px 3px red;
+    color: black;
+}
