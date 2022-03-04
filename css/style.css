@@ -1,0 +1,9 @@
+*{
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0%;
+    background-color: grey;
+}
+h1{
+    font-weight: bolder;
+}
