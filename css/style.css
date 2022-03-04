@@ -11,3 +11,7 @@ h1{
     color: white;
     font-size: 20px;
 }
+.d-grid a:hover{
+    cursor: progress;
+    box-shadow: 3px 3px white;
+}
