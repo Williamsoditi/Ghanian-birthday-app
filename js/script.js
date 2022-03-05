@@ -44,6 +44,9 @@ form.addEventListener('submit'), function (e){
         let valid_date = new Date(splitted_date[0],splitted_date[1],splitted_date[2]);
         let weekday_index = valid_date.getDay();
         let weekday_name = weekdays[weekday_index];
+
+        let possible_names = akan_names[gender];
+        let akanNames = possible_names[weekday_name];
     }
 }
 
