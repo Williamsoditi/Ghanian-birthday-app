@@ -7,18 +7,18 @@ validDate = (birthdate) => {
     }
     return true;
 }
-form.addEventListener('submit'), function (e){
+form.addEventListener('submit', function (e){
     e.preventDefault();
 
     let birthdate = form.birthdate.value;
     let gender = form.gender.value;
 
     // form validation
-    if(validDate(birthdate)){
-
+    if (validDate(birthdate)) {
+        
         var splitted_date = birthday.split('-')
 
-        var akanNames = {
+        var akanName = {
             female:{
                 sunday:"Akosua",
                 monday:"Adwoa",
@@ -46,7 +46,12 @@ form.addEventListener('submit'), function (e){
         let weekday_name = weekdays[weekday_index];
 
         let possible_names = akan_names[gender];
-        let akanNames = possible_names[weekday_name];
+        let akanName = possible_names[weekday_name];
+
+        var yourName = document.getElementById('myAkan');
+        yourName.innerHTML = akanName;
+    } else {
+        return false;
     }
-}
+})
 
