@@ -38,6 +38,8 @@ form.addEventListener('submit'), function (e){
                 saturday:"Kwame",
             }
         }
+
+        var weekDays = [ "monday","tuesday","wednesday","thursday","friday","saturday","sunday"];
     }
 }
 
