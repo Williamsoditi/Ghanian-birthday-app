@@ -6,7 +6,7 @@ By Williams Oditi Olang
 + [Requirements](#requirements)
 + [Technologies used](#technologies-used)
 + [Contact Information](#contact-information)
-+ [Copyright and License information](#copyright-and-license-information)
++ [Copyright and License](#copyright-and-license-information)
 ## Description
 This is a webpage application used to display a user's Akan Name, a Ghanian naming methodology based on the weekday of the date of birth and gender and the application displays your Akan Name.
 ## Project resources

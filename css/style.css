@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0%;
     background-color: coral;
-    align-items: center;
+    /* align-items: center; */
 }
 header{
     background-color: coral;
@@ -36,4 +36,20 @@ button:hover{
     cursor: progress;
     box-shadow: 3px 3px red;
     color: black;
+}
+legend{
+    font-size: larger;
+    font-weight: bold;
+}
+
+#form label{
+    font-size: 20px;
+}
+#form input{
+    background-color: whitesmoke;
+    border: none;
+}
+#form select{
+    background-color: whitesmoke;
+    border: none;
 }
