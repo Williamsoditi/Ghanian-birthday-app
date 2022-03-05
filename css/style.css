@@ -27,7 +27,8 @@ header{
     padding: 5vw;
 }
 button{
-    padding: 15px;
+    padding: 9px;
+    margin-top: 15px;
     color: white;
     background-color: green;
     border-radius: 10px 0px;

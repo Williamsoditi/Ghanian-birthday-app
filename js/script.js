@@ -1,9 +1,14 @@
 var form = document.getElementById('form')
 // Form Validation to enter correct date format //
-validDate = (birthday) => {
-    if (!birthday || birthday.split('-').length !== 3){
-        alert("Enter Correct Date!")
-        return false
+validDate = (birthdate) => {
+    if (!birthdate || birthdate.split('-').length !== 3){
+        alert("Enter Correct Date!");
+        return false;
     }
-    return true
+    return true;
 }
+form.addEventListener('submit'), function (e){
+    e.preventDefault();
+}
+let birthday = form.birthday.value;
+let gender = form.gender.value;
