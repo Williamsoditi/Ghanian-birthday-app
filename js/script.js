@@ -9,6 +9,35 @@ validDate = (birthdate) => {
 }
 form.addEventListener('submit'), function (e){
     e.preventDefault();
+
+    let birthdate = form.birthdate.value;
+    let gender = form.gender.value;
+
+    // form validation
+    if(validDate(birthdate)){
+
+        var splitDate = birthday.split('-')
+
+        var akanNames = {
+            female:{
+                sunday:"Akosua",
+                monday:"Adwoa",
+                tuesday:"Abenaa",
+                wednesday:"Akua",
+                thursday:"Yaa",
+                friday:"Afua",
+                saturday:"Ama",
+            },
+            male:{
+                sunday:"Kwasi",
+                monday:"Kwadwo",
+                tuesday:"Kwabena",
+                wednesday:"Kwaku",
+                thursday:"Yaw",
+                friday:"Kofi",
+                saturday:"Kwame",
+            }
+        }
+    }
 }
-let birthday = form.birthday.value;
-let gender = form.gender.value;
+
