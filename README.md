@@ -12,7 +12,7 @@ This is a webpage application used to display a user's Akan Name, a Ghanian nami
 ## Project resources
 The following is a live-link to the project's site
 
-Link : ` `
+Link : `https://williamsoditi.github.io/Ghanian-birthday-app/ `
 ## Requirements
 + Either a smartphone, computer or tablet
 + An access to the internet
