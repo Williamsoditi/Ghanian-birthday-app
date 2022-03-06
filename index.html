@@ -25,17 +25,18 @@
     <div class="forms">
        <fieldset>
            <legend>Enter your details</legend>
-           <form id="form">
-            <label for="birthdate">Enter your Birthday; <br>
-                <input type="date" id="birthdate" name="birthdate" class="form-control-sm" required>
+           <form id="myAkan">
+            <label for="birthday">Enter your Birth Date<br>
+              <input name="birthday" id="birthday" type="date" class="form-select"/><br>
             </label><br>
-            <label for="gender">Choose your Gender;<br>
-                <select name="gender" id="gender" class="form-control-sm" name="gender">
-                    <option value="female">Female</option>
-                    <option value="male">Male</option>
-                </select>
+            <label for="gender">Choose Your Gender<br>
+              <select name="gender" id="gender" class="form-select">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
             </label><br>
-            <button type="submit" onclick="dateSub()">Submit</button>
+            <button type="submit" value="Get Akan">Get Akan</button>
+          </form>
             <h2 id="myAkan">Your Akan Name is...</h2>
            </form>
        </fieldset>
