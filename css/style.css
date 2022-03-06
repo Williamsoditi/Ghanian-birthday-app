@@ -24,7 +24,7 @@ header{
 .welcome-text{
     color: white;
     font-size: 30px;
-    padding: 5vw;
+    padding: 3vw;
 }
 button{
     padding: 9px;
@@ -42,7 +42,10 @@ legend{
     font-size: larger;
     font-weight: bold;
 }
-
+.marquee{
+    font-weight: bold;
+    font-size: 30px;
+}
 /* #akan-name label{
     font-size: 20px;
 }
