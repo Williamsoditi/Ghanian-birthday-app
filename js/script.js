@@ -53,7 +53,7 @@ form.addEventListener('submit', function (e){
     let akan_name = possible_names[weekday_name]
 
     let elem = document.getElementById('myAkan')
-    elem.innerHTML = akan_name
+    elem.innerHTML = "Your Akan name is" + " " + akan_name + "."
   }else{
     return false
   }
